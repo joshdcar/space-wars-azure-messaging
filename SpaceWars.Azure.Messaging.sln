@@ -3,9 +3,46 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9CB0040D-F44A-4660-91A6-824B6426F5A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceWars.Functions.Events", "src\SpaceWars.Functions.Events\SpaceWars.Functions.Events.csproj", "{A66C8B3D-C911-4790-963C-468F09CC9C0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceWars.Functions.MessageGeneration", "src\SpaceWars.Functions.MessageGeneration\SpaceWars.Functions.MessageGeneration.csproj", "{CC52CF67-11E0-4655-813D-9D8B744AE1FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceWars.ServiceBus.Subscription", "src\SpaceWars.ServiceBus.Subscription\SpaceWars.ServiceBus.Subscription.csproj", "{DAF197FA-00EE-42D0-8843-7A74CA6F774A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{37B2CFD0-4209-4F07-93E7-3E3AC62E5591}"
+	ProjectSection(SolutionItems) = preProject
+		AzureFunctionsMessaging_75_Minute_JoshCarlisle.pptx = AzureFunctionsMessaging_75_Minute_JoshCarlisle.pptx
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A66C8B3D-C911-4790-963C-468F09CC9C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66C8B3D-C911-4790-963C-468F09CC9C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66C8B3D-C911-4790-963C-468F09CC9C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66C8B3D-C911-4790-963C-468F09CC9C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC52CF67-11E0-4655-813D-9D8B744AE1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC52CF67-11E0-4655-813D-9D8B744AE1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC52CF67-11E0-4655-813D-9D8B744AE1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC52CF67-11E0-4655-813D-9D8B744AE1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF197FA-00EE-42D0-8843-7A74CA6F774A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF197FA-00EE-42D0-8843-7A74CA6F774A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF197FA-00EE-42D0-8843-7A74CA6F774A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF197FA-00EE-42D0-8843-7A74CA6F774A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A66C8B3D-C911-4790-963C-468F09CC9C0E} = {9CB0040D-F44A-4660-91A6-824B6426F5A4}
+		{CC52CF67-11E0-4655-813D-9D8B744AE1FC} = {9CB0040D-F44A-4660-91A6-824B6426F5A4}
+		{DAF197FA-00EE-42D0-8843-7A74CA6F774A} = {9CB0040D-F44A-4660-91A6-824B6426F5A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8EDBDF74-966A-42CF-B75D-08535970AA55}
